@@ -10,13 +10,24 @@ Download and install [Virtualbox 4.2.6](https://www.virtualbox.org/wiki/Download
 
 Download and install [Vagrant 1.1.5](http://downloads.vagrantup.com/tags/v1.1.5). (If you're feeling courageous, use the latest, the maintainer is pretty good about keeping things working).
 
-___WARNING___
-this will take a while, as it is downloading 1.2GB of baseboxes.
+```
+git clone https://github.com/chef-tutorials/workstation.git
+```
 
-Type `vagrant up` in the base directory of this repo and the vagrant will download the [basebox](http://link-to-basebox.html) from the web, and start up the workstation and node to get started with the tutorial.
+In the base directory of the repo, run:
+
+___WARNING___
+The following command will take a while, as it is downloading 1.2GB of baseboxes.
+
+```
+vagrant up 
+```
+
+Vagrant will download the [baseboxes](http://link-to-basebox.html) from the web, and start up the workstation and node to get started with the tutorials.
 
 Upon success, you should see the login screen of a Ubuntu desktop box. Login with
 
+```
 Username: vagrant
 Password: vagrant
-
+```

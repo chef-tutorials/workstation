@@ -1,0 +1,13 @@
+TODO:
+
+Add URL of box to Vagrantfile.
+Upload boxes to S3.
+
+Add to README:
+
+On the initial run of `./test-sync-and-run.sh` you will  be prompted to continue connecting to an unknown host. This is the local chef-node that vagrant spun up, type yes.
+
+Instructions on how to make your own branch and go visit other branches when you get stuck.
+
+To check your progress in the tutorial, run `git tag`, and you will see how many steps are remaining.
+

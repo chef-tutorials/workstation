@@ -1,7 +1,6 @@
 TODO:
 
-Add URL of box to Vagrantfile.
-Upload boxes to S3.
+Make attributes steps chown a bunch of files, subsequent step another user to demonstrate reusability.
 
 Add to README:
 

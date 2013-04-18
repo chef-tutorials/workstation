@@ -1,9 +1,17 @@
 TODO:
 
-Make attributes steps chown a bunch of files, subsequent step another user to demonstrate reusability.
 Silent rsync unless failure.
+uninstall update-manager-core
 Kill the automatic update popup
+
 kill the constantly trying to connect network-manager
+Create a vim config that is owned by vim, using attributes
+Create tests to test that downloadme is owned by www-data using attributes
+Have the nginx cookbook appear, we have already lwrp-ized it :webroot_dir, :user, :port
+LWRP-ize the apache2 cookbook
+
+
+
 
 Add to README:
 

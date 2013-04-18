@@ -1,6 +1,9 @@
 TODO:
 
 Make attributes steps chown a bunch of files, subsequent step another user to demonstrate reusability.
+Silent rsync unless failure.
+Kill the automatic update popup
+kill the constantly trying to connect network-manager
 
 Add to README:
 

@@ -1,5 +1,6 @@
 TODO:
 
+Get the authenticity of host check turned off for ssh and rsync (-o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no)
 Silent rsync unless failure.
 uninstall update-manager-core
 Kill the automatic update popup

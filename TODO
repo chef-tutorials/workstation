@@ -8,3 +8,7 @@ Create a vim config that is owned by vim, using attributes
 Create tests to test that downloadme is owned by www-data using attributes
 Have the nginx cookbook appear, we have already lwrp-ized it :webroot_dir, :user, :port
 LWRP-ize the apache2 cookbook
+
+How do we discuss idempotency and why it's important in configuration?
+Workstation needs to somehow block login until after the run is complete.
+	Possible solution add an execute 'sudo reboot' at the end of the run to see if it will come back up with the GUI

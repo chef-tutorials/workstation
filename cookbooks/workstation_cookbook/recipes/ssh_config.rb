@@ -15,3 +15,10 @@ cookbook_file "#{home_directory}/.ssh/id_rsa" do
   owner "vagrant"
   group "vagrant"
 end
+
+cookbook_file "#{home_directory}/.ssh/config" do
+  source "config"
+  mode "755"
+  owner "vagrant"
+  group "vagrant"
+end

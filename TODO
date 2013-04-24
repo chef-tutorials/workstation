@@ -1,6 +1,5 @@
 TODO:
 
-Silent rsync unless failure.
 uninstall update-manager-core
 Kill the automatic update popup
 
@@ -9,15 +8,3 @@ Create a vim config that is owned by vim, using attributes
 Create tests to test that downloadme is owned by www-data using attributes
 Have the nginx cookbook appear, we have already lwrp-ized it :webroot_dir, :user, :port
 LWRP-ize the apache2 cookbook
-
-
-
-
-Add to README:
-
-On the initial run of `./test-sync-and-run.sh` you will  be prompted to continue connecting to an unknown host. This is the local chef-node that vagrant spun up, type yes.
-
-Instructions on how to make your own branch and go visit other branches when you get stuck.
-
-To check your progress in the tutorial, run `git tag`, and you will see how many steps are remaining.
-

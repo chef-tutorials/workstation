@@ -24,5 +24,9 @@ describe_recipe "workstation_cookbook::ssh_config" do
     it "should place the insecure vagrant pem file for workstation" do
       file("/home/vagrant/.ssh/id_rsa").must_have(:mode, "600").with(:owner, "vagrant").and(:group, "vagrant")
     end
+
+    it "should place the ssh configuration file in the home directory" do
+      file("/home/vagrant/.ssh/config").must_have(:mode, "755").with(:owner, "vagrant").and(:group, "vagrant")
+    end
   end
 end

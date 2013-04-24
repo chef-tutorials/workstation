@@ -28,5 +28,11 @@ describe_recipe "workstation_cookbook::ssh_config" do
     it "should place the ssh configuration file in the home directory" do
       file("/home/vagrant/.ssh/config").must_have(:mode, "755").with(:owner, "vagrant").and(:group, "vagrant")
     end
+
+    it "should not ask for authenticity of the host" do
+      file('/home/vagrant/.ssh/config').must_match /^StrictHostKeyChecking=no$/
+      file('/home/vagrant/.ssh/config').must_match /^UserKnownHostsFile=\/dev\/null$/
+      file('/home/vagrant/.ssh/config').must_match /^LogLevel=quiet$/
+    end
   end
 end

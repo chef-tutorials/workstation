@@ -2,32 +2,47 @@ Introduction
 ============
 This repository contains the infrastructure to run chef-tutorials, and develop cookbooks using test driven development.
 
+
+Prerequisites 
+============
+
+1.  Download and install [Virtualbox 4.2.6](https://www.virtualbox.org/wiki/Download_Old_Builds_4_2) (if you want to align with what we're using). 
+2.  Download and install [Vagrant 1.1.5](http://downloads.vagrantup.com/tags/v1.1.5). (If you're feeling courageous, use the latest, the maintainer is pretty good about keeping things working).
+
 Instructions
 ============
-To run these tutorials, there are a few prerequisites: 
 
-Download and install [Virtualbox 4.2.6](https://www.virtualbox.org/wiki/Download_Old_Builds_4_2) (if you want to align with what we're using). 
+1.  Run the following command in the terminal to download the git repository.
+    
+    ```
+    git clone https://github.com/chef-tutorials/workstation.git
+    ```
 
-Download and install [Vagrant 1.1.5](http://downloads.vagrantup.com/tags/v1.1.5). (If you're feeling courageous, use the latest, the maintainer is pretty good about keeping things working).
+    NOTE: The `git clone` command will create the workstation base directory in the current directory.
+    
+    __Alternative__: Download the following url __if you don't have git installed__:
+    
+    ```
+    https://github.com/chef-tutorials/workstation/archive/master.zip
+    ```
+    
+2.  Change the current directory to the workstation base directory, then start up vagrant:
+    
+    ___WARNING___
+    The following command will take a while, as it will download baseboxes.
+    
+    ```
+    cd workstation
+    vagrant up 
+    ```
+    
+    Vagrant will download the baseboxes, and start up the workstation and node to get started with the tutorials.
+   
+3.  Even with the Ubuntu desktop starting up, __wait__ until the `vagrant up` command is complete.
 
-```
-git clone https://github.com/chef-tutorials/workstation.git
-```
-
-In the base directory of the repo, run:
-
-___WARNING___
-The following command will take a while, as it is downloading 1.2GB of baseboxes.
-
-```
-vagrant up 
-```
-
-Vagrant will download the [baseboxes](http://link-to-basebox.html) from the web, and start up the workstation and node to get started with the tutorials.
-
-Upon success, you should see the login screen of a Ubuntu desktop box. Login with
-
-```
-Username: vagrant
-Password: vagrant
-```
+4.  Upon success, you should see the login screen of a Ubuntu desktop box. Login with
+    
+    ```
+    Username: vagrant
+    Password: vagrant
+    ```

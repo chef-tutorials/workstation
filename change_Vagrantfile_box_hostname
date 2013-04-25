@@ -1,0 +1,1 @@
+sed -i.bak "s/s3\.amazonaws\.com/$1/" ./Vagrantfile

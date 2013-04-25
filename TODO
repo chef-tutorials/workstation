@@ -1,10 +1,6 @@
 TODO:
 
 On the README of workstation:
-- baseboxes link is broken
-- Make sure Vagrant's installation instruction isn't ambiguous to the git clone command.
-- Clarify where the base directory of the repository is.
-- Take care of cases where git isn't installed on the machine
 - We need a local server to server the vagrant box. ( Make a script that will edit the Vagrantfile's box url. Also, Ensure that our machines can serve with the correct directory)
 
 uninstall update-manager-core

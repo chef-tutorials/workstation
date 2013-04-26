@@ -3,6 +3,16 @@ TODO:
 On the README of workstation:
 - We need a local server to server the vagrant box. ( Make a script that will edit the Vagrantfile's box url. Also, Ensure that our machines can serve with the correct directory)
 
+
+After watching Danni go through the tutorial:
+- The test sync-run scripts shouldn't print knife cookbook test outputs (unless it fails)
+- step C, make the above shell script (./test-sync...) pass by editing the cookbooks.
+- Tell users how to access the chef_node to checkout the outcome.
+- Sometimes people don't know that they have to edit apache2 cookbook to make the tests pass. 
+- We should also say that vim are examples that works.
+- Directory " ______" do action :create end (be more explicit)
+- Have to specify that we are running the chef script on another VM.
+
 uninstall update-manager-core
 Kill the automatic update popup
 

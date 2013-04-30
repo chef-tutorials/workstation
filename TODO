@@ -13,6 +13,10 @@ After watching Danni go through the tutorial:
 - Directory " ______" do action :create end (be more explicit)
 - Have to specify that we are running the chef script on another VM.
 
+After watching Derek go through the tutorial:
+ - Add more descriptive title for the commit
+ - Make the package install vim be explicit with the example
+
 uninstall update-manager-core
 Kill the automatic update popup
 

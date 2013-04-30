@@ -5,6 +5,7 @@ On the README of workstation:
 
 
 After watching Danni go through the tutorial:
+- repackage the VMs with vagrant v1.0.7 (When users try to add the box with Vagrant v1.0.7, they can't do it as it is packgaged with 1.1, not 1.0)
 - The test sync-run scripts shouldn't print knife cookbook test outputs (unless it fails)
 - step C, make the above shell script (./test-sync...) pass by editing the cookbooks.
 - Tell users how to access the chef_node to checkout the outcome.

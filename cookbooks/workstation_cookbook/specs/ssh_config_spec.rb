@@ -34,5 +34,11 @@ describe_recipe "workstation_cookbook::ssh_config" do
       file('/home/vagrant/.ssh/config').must_match /^UserKnownHostsFile=\/dev\/null$/
       file('/home/vagrant/.ssh/config').must_match /^LogLevel=quiet$/
     end
+
+    it "should have a shortcut to ssh to the chef_node" do
+      file('/home/vagrant/.ssh/config').must_match /^host chef_node$/
+      file('/home/vagrant/.ssh/config').must_match /hostname 10.10.10.5$/
+      file('/home/vagrant/.ssh/config').must_match /User vagrant$/
+    end
   end
 end

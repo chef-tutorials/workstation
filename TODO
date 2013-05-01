@@ -7,14 +7,9 @@ On the README of workstation:
 After watching Danni go through the tutorial:
 - repackage the VMs with vagrant v1.0.7 (When users try to add the box with Vagrant v1.0.7, they can't do it as it is packgaged with 1.1, not 1.0)
 - The test sync-run scripts shouldn't print knife cookbook test outputs (unless it fails)
-- step C, make the above shell script (./test-sync...) pass by editing the cookbooks. 
-(Edit the cookbooks in the introduction repository using your favorite text editor to make the `test-sync-run-solo.sh` script pass.)
-- Tell users how to access the chef_node to checkout the outcome.
-(Add to the readme and edit ssh config to create alias to chef node)
-- Sometimes people don't know that they have to edit apache2 cookbook to make the tests pass. 
 (Change the wallpaper on the workstation to have an image of where the user is and where that they are running the cookbooks against another node)
-- We should also say that vim are examples that works.
 - Directory " ______" do action :create end (be more explicit)
+- Change the workstation cookbook to add the lines in ssh/config in the workstation node to allow `ssh chef_node`
 
 After watching Derek go through the tutorial:
  - Add more descriptive title for the commit

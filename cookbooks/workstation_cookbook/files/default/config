@@ -1,3 +1,7 @@
+host chef_node
+  hostname 10.10.10.5
+  User vagrant
+
 Host *
 UserKnownHostsFile=/dev/null
 StrictHostKeyChecking=no

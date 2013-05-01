@@ -1,18 +1,13 @@
 TODO:
 
 On the README of workstation:
-- We need a local server to server the vagrant box. ( Make a script that will edit the Vagrantfile's box url. Also, Ensure that our machines can serve with the correct directory)
+- We need a local server to server the vagrant box. (Ensure that our machines can serve with the correct directory)
 
-
-After watching Danni go through the tutorial:
 - repackage the VMs with vagrant v1.0.7 (When users try to add the box with Vagrant v1.0.7, they can't do it as it is packgaged with 1.1, not 1.0)
 - The test sync-run scripts shouldn't print knife cookbook test outputs (unless it fails)
 (Change the wallpaper on the workstation to have an image of where the user is and where that they are running the cookbooks against another node)
 - Directory " ______" do action :create end (be more explicit)
-
-After watching Derek go through the tutorial:
- - Add more descriptive title for the commit
- - Make the package install vim be explicit with the example
+- Add more descriptive title for the commit
 
 After discussing step 3:
  - It's too damn hard.

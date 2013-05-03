@@ -2,18 +2,9 @@ TODO:
 
 On the README of workstation:
 - We need a local server to server the vagrant box. (Ensure that our machines can serve with the correct directory)
-http://blog.andyhunt.info/2011/11/26/apache-ssl-on-max-osx-lion-10-7/
 
-- repackage the VMs with vagrant v1.0.7 (When users try to add the box with Vagrant v1.0.7, they can't do it as it is packgaged with 1.1, not 1.0)
 - The test sync-run scripts shouldn't print knife cookbook test outputs (unless it fails)
-(Change the wallpaper on the workstation to have an image of where the user is and where that they are running the cookbooks against another node)
-- Directory " ______" do action :create end (be more explicit)
-- Add more descriptive title for the commit
-
-After discussing step 3:
- - It's too damn hard.
- - Make another cookbook or edit a single existing file like apache2.conf instead of creating a new file then a symlink etc.
- - /etc/motd
+- Change the wallpaper on the workstation to have an image of where the user is and where that they are running the cookbooks against another node
 
 uninstall update-manager-core
 Kill the automatic update popup

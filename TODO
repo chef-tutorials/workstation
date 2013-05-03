@@ -3,13 +3,12 @@ TODO:
 On the README of workstation:
 - We need a local server to server the vagrant box. (Ensure that our machines can serve with the correct directory)
 
-- The test sync-run scripts shouldn't print knife cookbook test outputs (unless it fails)
+- kill the constantly trying to connect network-manager
 - Change the wallpaper on the workstation to have an image of where the user is and where that they are running the cookbooks against another node
 
 uninstall update-manager-core
 Kill the automatic update popup
 
-kill the constantly trying to connect network-manager
 Create a vim config that is owned by vim, using attributes
 Create tests to test that downloadme is owned by www-data using attributes
 Have the nginx cookbook appear, we have already lwrp-ized it :webroot_dir, :user, :port

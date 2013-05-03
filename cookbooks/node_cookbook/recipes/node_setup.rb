@@ -8,3 +8,4 @@
 # 
 
 include_recipe 'node_cookbook::solo_configuration'
+include_recipe 'node_cookbook::apt_get_update'

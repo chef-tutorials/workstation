@@ -20,7 +20,7 @@ Instructions
 
     NOTE: The `git clone` command will create the workstation base directory in the current directory.
     
-    __Alternative__: Download the following url __if you don't have git installed__:
+    __Alternative__: Download the following zip file and extract it __if you don't have git installed__:
     
     ```
     https://github.com/chef-tutorials/workstation/archive/master.zip
@@ -29,16 +29,16 @@ Instructions
 2.  Change the current directory to the workstation base directory, then start up vagrant:
     
     ___WARNING___
-    The following command will take a while, as it will download baseboxes.
+    The following command will take a while, as it will download the baseboxes.
     
     ```
     cd workstation
     vagrant up 
     ```
     
-    Vagrant will download the baseboxes, and start up the workstation and node to get started with the tutorials.
+    Vagrant will download the baseboxes, and start up the workstation and chef_node to get started with the tutorials.
    
-3.  Even with the Ubuntu desktop starting up, __wait__ until the `vagrant up` command is complete.
+    ___NOTE___: Even with the Ubuntu desktop starting up, __wait__ until the `vagrant up` command is complete.
 
 4.  Upon success, you should see the login screen of a Ubuntu desktop box. Login with
     

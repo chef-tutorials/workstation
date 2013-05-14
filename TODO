@@ -1,5 +1,8 @@
 TODO:
 
+- Fix typo:
+When you _would_ to check your progress in the tutorial run git tag and you can see how many steps ar remaining.
+
 On the README of workstation:
 - We need a local server to server the vagrant box. (Ensure that our machines can serve with the correct directory)
 

@@ -29,8 +29,6 @@ How do we discuss idempotency and why it's important in configuration?
 Workstation needs to somehow block login until after the run is complete.
 	Possible solution add an execute 'sudo reboot' at the end of the run to see if it will come back up with the GUI
 
-Step-04: Make all templates explicitly owned by user and group root.
-Step-05: Change this to an attribute and use www-data or postgres.
 Step-06: cookbook_file for replacing an init.d script that lacks a feature by default (status add a something like pid file)
 
 Write a windows batch file to change the Vagrantfile

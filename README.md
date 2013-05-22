@@ -31,6 +31,8 @@ Instructions
     ___WARNING___
     The following command will take a while, as it will download the baseboxes.
     
+    ___NOTE___: Please __wait__ until the following commands are complete before you interact with the workstation.
+    
     ```
     cd workstation
     vagrant up 
@@ -38,7 +40,6 @@ Instructions
     
     Vagrant will download the baseboxes, and start up the workstation and chef_node to get started with the tutorials.
    
-    ___NOTE___: Even with the Ubuntu desktop starting up, __wait__ until the `vagrant up` command is complete.
 
 4.  Upon success, you should see the login screen of a Ubuntu desktop box. Login with
     

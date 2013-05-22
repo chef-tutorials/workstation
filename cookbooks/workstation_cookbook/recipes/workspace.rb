@@ -29,9 +29,3 @@ file "/home/vagrant/.chef/knife.rb" do
   group "vagrant"
 end
 
-file "/home/vagrant/Desktop/link_to_tutorials.desktop" do
-  user "vagrant"
-  group "vagrant"
-  content "[Desktop Entry]\nEncoding=UTF-8\nName=link_to_tutorials.desktop\nType=Link\nURL=https://github.com/chef-tutorials\nIcon=text-html" 
-end
-

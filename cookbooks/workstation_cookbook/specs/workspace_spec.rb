@@ -42,9 +42,5 @@ describe_recipe "workstation_cookbook::workspace" do
     it "should create an empty knife config file at $HOME/.chef" do
       file("/home/vagrant/.chef/knife.rb").must_exist.with(:owner,"vagrant").and(:group,"vagrant")
     end
-
-    it "should create a desktop link file to the github tutorials" do
-      file("/home/vagrant/Desktop/link_to_tutorials.desktop").must_exist.with(:owner,"vagrant").and(:group,"vagrant")
-    end
   end
 end

@@ -7,7 +7,7 @@
 # Some rights reserved - Redistribute
 # 
 
-%w{ berkshelf foodcritic }.each do |ruby_gem|
+%w{ foodcritic }.each do |ruby_gem|
   gem_package ruby_gem
 end
 

@@ -31,7 +31,7 @@ Instructions
     ___WARNING___
     The following command will take a while, as it will download the baseboxes.
     
-    ___NOTE___: Please __wait__ until the following commands are complete before you interact with the workstation.
+    ___NOTE___: Please __wait__ until the following commands are complete before you log in to the workstation.
     
     ```
     cd workstation

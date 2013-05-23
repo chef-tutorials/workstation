@@ -21,11 +21,6 @@ describe_recipe "workstation_cookbook::ruby_gems" do
   end
 
   describe "the functionality of the cookbook" do
-    it "should install berkshelf" do
-      `which berks`
-      assert( $?.exitstatus == 0 , "..")
-    end
-    
     it "should install foodcritic" do
       `which foodcritic`
       assert( $?.exitstatus == 0 , "..")

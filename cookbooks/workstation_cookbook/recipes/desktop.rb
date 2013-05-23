@@ -12,9 +12,9 @@ cookbook_file "/usr/share/backgrounds/warty-final-ubuntu.png" do
   group "vagrant"
 end
 
-file "/home/vagrant/Desktop/link_to_tutorials.desktop" do
+file "/home/vagrant/Desktop/introduction_tutorial.desktop" do
   user "vagrant"
   group "vagrant"
-  content "[Desktop Entry]\nEncoding=UTF-8\nName=link_to_tutorials.desktop\nType=Link\nURL=https://github.com/chef-tutorials\nIcon=text-html" 
+  content "[Desktop Entry]\nEncoding=UTF-8\nName=introduction_tutorial.desktop\nType=Link\nURL=https://github.com/chef-tutorials/introduction\nIcon=text-html" 
 end
 

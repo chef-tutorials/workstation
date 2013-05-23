@@ -1,8 +1,14 @@
 TODO:
 
+- Add a log output from the test-sync- script to direct the user to move on to the next step.
+
+
+- Add index at the top of the tutorials readme.md
+- Sublime text erb file syntax highlighting??
 - Make the ps1 file work with cmd.exe or make the .bat file or make sed work in windows. Or make powershell work with (Set-ExecutionPolicy Unrestricted)
 - kill the constantly trying to connect network-manager
 - Make sure my computer doesn't go to sleep when I start serving the boxes
+- Fix the background picture
 
 uninstall update-manager-core
 Kill the automatic update popup

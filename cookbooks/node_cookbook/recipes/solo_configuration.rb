@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: node_cookbook 
-# Recipes Name:: node_setup
+# Recipes Name:: solo_configuration
 #
 # Copyright (C) 2013 chef-tutorial
 # 

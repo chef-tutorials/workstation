@@ -26,7 +26,7 @@ Vagrant::Config.run do |config|
     workstation.vm.provision :chef_solo do |chef|
       chef.cookbooks_path = ["cookbooks"]
       chef.add_recipe       "workstation_cookbook::workstation_setup"
-      chef.add_recipe       "node_cookbook::node_setup"
+      chef.add_recipe       "node_cookbook::solo_configuration"
       chef.add_recipe       "minitest-handler-solo"
     end
   end

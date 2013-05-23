@@ -23,7 +23,7 @@ describe_recipe "workstation_cookbook::workspace" do
   describe "the functionality of the cookbook" do
 
     it "should create a desktop link file to the github tutorials" do
-      file("/home/vagrant/Desktop/link_to_tutorials.desktop").must_exist.with(:owner,"vagrant").and(:group,"vagrant")
+      file("/home/vagrant/Desktop/introduction_tutorial.desktop").must_exist.with(:owner,"vagrant").and(:group,"vagrant")
     end
   end
 end

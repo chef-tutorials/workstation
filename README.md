@@ -7,7 +7,7 @@ Prerequisites
 ============
 
 1.  Download and install [Virtualbox 4.2.6](https://www.virtualbox.org/wiki/Download_Old_Builds_4_2) (if you want to align with what we're using). 
-2.  Download and install [Vagrant 1.2.2](http://downloads.vagrantup.com/tags/v1.1.5). (If you're feeling courageous, use the latest, the maintainer is pretty good about keeping things working).
+2.  Download and install [Vagrant 1.2.2](http://downloads.vagrantup.com/tags/v1.2.2). (If you're feeling courageous, use the latest, the maintainer is pretty good about keeping things working).
 
 Instructions
 ============

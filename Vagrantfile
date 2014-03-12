@@ -4,7 +4,7 @@
 Vagrant::Config.run do |config|
 
   config.vm.define :chef_node do |chef_node|
-    chef_node.vm.box       = "sgprecise32"
+    chef_node.vm.box       = "nairobi_base"
     chef_node.vm.host_name = "chef-node"
 #sudo apt-get update
 #sudo apt-get install build-essential
@@ -16,9 +16,9 @@ Vagrant::Config.run do |config|
       chef.cookbooks_path  = ["cookbooks", "/Users/Carlos/Documents/configmgmt-tutorial/cookbooks"]
 #      chef.add_recipe       "flask"
 #      chef.add_recipe       "flaskr"
-      chef.add_recipe       "node_cookbook::node_setup"
-      chef.add_recipe       "minitest-handler-solo"
-      chef.add_recipe       "minitest-handler"
+#      chef.add_recipe       "node_cookbook::node_setup"
+#      chef.add_recipe       "minitest-handler-solo"
+#      chef.add_recipe       "minitest-handler"
     end
   end
 

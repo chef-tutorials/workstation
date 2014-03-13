@@ -5,6 +5,7 @@ Vagrant::Config.run do |config|
 
   config.vm.define :chef_node do |chef_node|
     chef_node.vm.box       = "nairobi_base"
+    chef_node.vm.box_url   = "../nairobi_base.box"
     chef_node.vm.host_name = "chef-node"
 #sudo apt-get update
 #sudo apt-get install build-essential
@@ -24,6 +25,7 @@ Vagrant::Config.run do |config|
 
   config.vm.define :workstation do |workstation|
     workstation.vm.box       = "workstation_cooked"
+    workstation.vm.box_url   = "../workstation_cooked.box"
     workstation.vm.boot_mode = :gui
     workstation.vm.host_name = "workstation"
     workstation.vm.customize ["modifyvm", :id, "--memory", "1024", "--cpus", "1"]
